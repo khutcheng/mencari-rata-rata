@@ -23,5 +23,13 @@ public class Percobaan2 {
         System.out.println("+------------+-----------------+-----------------+");
         System.out.printf("| %-10s | %-15s | %-15s |\n", "NAMA", "ALAMAT", "TELEPON");
         System.out.println("+------------+-----------------+-----------------+");
+        
+        for (int a =0; a<data.length; a++){
+            System.out.printf("| %-10s | %-15s | %-15s |\n",
+                    data[a][0],
+                    data[a][2],
+                    data[a][1]);
+        }
+        System.out.println("+------------+-----------------+-----------------+");
 }
 }
