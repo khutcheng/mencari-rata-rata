@@ -20,5 +20,8 @@ public class Percobaan2 {
             {"PONIRAN", "085646668999", "BOJONEGORO"},
             {"KUCENG", "083897271987", "NGANJUK"}
         };
+        System.out.println("+------------+-----------------+-----------------+");
+        System.out.printf("| %-10s | %-15s | %-15s |\n", "NAMA", "ALAMAT", "TELEPON");
+        System.out.println("+------------+-----------------+-----------------+");
 }
 }
