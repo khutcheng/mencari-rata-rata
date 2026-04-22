@@ -9,10 +9,16 @@ package percobaan1;
  * @author rizal
  */
 public class Percobaan2 {
-    String data [][] = {
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        String data [][] = {
             {"ABDUL", "085646668991", "KEDIRI"},
             {"KUSNO", "085646668992", "TRENGGALEK"},
             {"PONIRAN", "085646668999", "BOJONEGORO"},
             {"KUCENG", "083897271987", "NGANJUK"}
-    }
+        };
+}
 }
