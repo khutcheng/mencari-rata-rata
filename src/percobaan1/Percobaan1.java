@@ -52,6 +52,14 @@ public class Percobaan1 {
         JOptionPane.showInputDialog("Memasukkan nilai pengganti :");
         int Baru = Integer.parseInt(BaruStr);
         
+        for (int a = 0; a<data.length; a++){
+            for (int b = 0; b<data[a].length; b++){
+                if (data [a][b] == cari){
+                    data [a][b] = Baru;
+                }
+            }
+        }
+        
     }
     
 }
