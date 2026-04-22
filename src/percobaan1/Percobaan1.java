@@ -22,7 +22,22 @@ public class Percobaan1 {
                 System.out.print(data1[b] + "");
             }
             System.out.println();
-        } 
+        }
+        int total = 0;
+        int jumlah = 0;
+        int jumlahGanjil = 0;
+        for (int a = 0; a<data.length; a++){
+            for (int b = 0; b<data[a].length; b++){
+        int nilai = data [a][b];        
+            total += nilai;
+            jumlah++;
+            
+            if (nilai %2 != 0){
+                jumlahGanjil++;
+            }
+        }
+    } 
     }
     
 }
+
