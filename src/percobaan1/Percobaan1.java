@@ -36,7 +36,13 @@ public class Percobaan1 {
                 jumlahGanjil++;
             }
         }
-    } 
+    }
+        double rataRata = total / jumlah;
+        System.out.println("Total nilai :" + total);
+        System.out.println("jumlah elemen :"+jumlah);
+        System.out.println("Nilai rata-rata :" + rataRata );
+        System.out.println("jumlah elemen ganjil :" + jumlahGanjil);
+       
     }
     
 }
