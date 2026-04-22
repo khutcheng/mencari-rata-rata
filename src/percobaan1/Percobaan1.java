@@ -4,6 +4,8 @@
  */
 package percobaan1;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author rizal
@@ -43,6 +45,13 @@ public class Percobaan1 {
         System.out.println("Nilai rata-rata :" + rataRata );
         System.out.println("jumlah elemen ganjil :" + jumlahGanjil);
        
+        String cariStr =
+        JOptionPane.showInputDialog("Memasukkan nilai yang dicari:");
+        int cari = Integer.parseInt(cariStr);
+        String BaruStr =
+        JOptionPane.showInputDialog("Memasukkan nilai pengganti :");
+        int Baru = Integer.parseInt(BaruStr);
+        
     }
     
 }
