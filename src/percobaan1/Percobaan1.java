@@ -60,6 +60,19 @@ public class Percobaan1 {
             }
         }
         
+        jumlahGanjil = 0;
+    for (int a = 0; a<data.length; a++){
+            for (int b = 0; b<data[a].length; b++){
+        int nilai = data [a][b];        
+            total += nilai;
+            jumlah++;
+            
+            if (nilai %2 != 0){
+                jumlahGanjil++;
+            }
+        }
+    } 
+    
     }
     
 }
