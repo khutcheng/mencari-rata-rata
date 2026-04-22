@@ -72,7 +72,16 @@ public class Percobaan1 {
             }
         }
     } 
+    rataRata = (double)rataRata / jumlah;
+    System.out.println("\ndata setelah perubahan :");
+    for (int[] data1 : data) {
+            for (int b   = 0; b < data[0].length; b++) {
+                System.out.print(data1[b] + "");
+            }
+            System.out.println();
+    }
     
+        System.out.println("jumlah elemen ganjil :" + jumlahGanjil);
     }
     
 }
